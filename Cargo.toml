@@ -1,0 +1,20 @@
+[package]
+name = "typed_log_parry_rerun"
+version = "0.1.0"
+edition = "2024"
+description = "Log parry types with rerun easily."
+license = "MIT OR Apache-2.0"
+keywords = ["rerun", "log"]
+repository = "https://github.com/Vrixyz/typed_log_parry_rerun"
+documentation = "https://docs.rs/typed_log_parry_rerun"
+
+[dependencies]
+rerun = "0.23"
+typed_log = "0.1.0"
+typed_log_rerun = "0.1.0"
+parry3d = "*"
+
+[patch.crates-io]
+typed_log = { path = "../typed_log" }
+typed_log_rerun = { path = "../typed_log_rerun" }
+# parry3d = { path = "../parry/crates/parry3d" }
