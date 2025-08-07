@@ -1,6 +1,6 @@
 [package]
 name = "typed_log_parry_rerun"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 description = "Log parry types with rerun easily."
 license = "MIT OR Apache-2.0"
