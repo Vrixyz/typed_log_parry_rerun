@@ -27,8 +27,8 @@ pub fn register_typed_loggers() {
 // }
 
 pub struct Points<'a> {
-    record: Option<&'a str>,
-    points: &'a [Vector3<Real>],
+    pub record: Option<&'a str>,
+    pub points: &'a [Vector3<Real>],
 }
 
 impl Loggable for Points<'_> {
@@ -38,9 +38,9 @@ impl Loggable for Points<'_> {
 }
 
 pub struct VerticesIndices<'a> {
-    record: Option<&'a str>,
-    vertices: &'a [Vector3<Real>],
-    indices: &'a [[u32; 3]],
+    pub record: Option<&'a str>,
+    pub vertices: &'a [Vector3<Real>],
+    pub indices: &'a [[u32; 3]],
 }
 
 impl Loggable for VerticesIndices<'_> {

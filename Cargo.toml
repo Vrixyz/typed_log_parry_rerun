@@ -15,6 +15,6 @@ typed_log_rerun = "0.1.0"
 parry3d = "*"
 
 [patch.crates-io]
-typed_log = { path = "../typed_log" }
-typed_log_rerun = { path = "../typed_log_rerun" }
+# typed_log = { path = "../typed_log" }
+# typed_log_rerun = { path = "../typed_log_rerun" }
 # parry3d = { path = "../parry/crates/parry3d" }
