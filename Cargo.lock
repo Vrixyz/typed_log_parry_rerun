@@ -8222,9 +8222,9 @@ dependencies = [
 
 [[package]]
 name = "typed_log_rerun"
-version = "0.1.0"
+version = "0.1.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4fda82b89d1ed0c1c7f1b722342622624c962b86e227bb28d163bb1209b755eb"
+checksum = "e572adb7ef45003e31eb90bc1e15c416d414960a9edb92174f67cf86f9a8582b"
 dependencies = [
  "rerun",
  "typed_log",
